@@ -1151,6 +1151,9 @@ section,
   font-size: 16px;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
@@ -1617,6 +1620,20 @@ section,
     transform: scale(1.2);
     transition: none;
   }
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.responsive-image {
+  width: 100%;
+  max-width: 1200px; /* Adjust max width as needed */
+  height: auto;
+  border-radius: 10px;
 }
 
 /*--------------------------------------------------------------
