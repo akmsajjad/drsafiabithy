@@ -1628,7 +1628,9 @@ section,
   align-items: center;
   padding: 20px;
 }
-
+.align-middle{
+  text-align: center;
+}
 .responsive-image {
   width: 100%;
   max-width: 1200px; /* Adjust max width as needed */
